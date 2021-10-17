@@ -1,0 +1,67 @@
+{
+	"name": "fitbit-color-themes",
+	"version": "0.0.1",
+	"private": true,
+	"license": "UNLICENSED",
+	"scripts": {
+		"build": "fitbit-build",
+		"debug": "fitbit"
+	},
+	"devDependencies": {
+		"@fitbit/sdk": "~5.0.2",
+		"@fitbit/sdk-cli": "^1.7.3",
+		"fitbit-sdk-types": "^6.0.1"
+	},
+	"fitbit": {
+		"appUUID": "f100f76b-0a9e-488f-ba35-d1a8531a2d4b",
+		"appType": "clockface",
+		"appDisplayName": "fitbit-color-themes",
+		"iconFile": "resources/icon.png",
+		"wipeColor": "#8bc34a",
+		"requestedPermissions": [],
+		"buildTargets": [
+			"atlas",
+			"vulcan"
+		],
+		"i18n": {
+			"de-DE": {
+				"name": "fitbit-color-themes"
+			},
+			"en-US": {
+				"name": "fitbit-color-themes"
+			},
+			"es-ES": {
+				"name": "fitbit-color-themes"
+			},
+			"fr-FR": {
+				"name": "fitbit-color-themes"
+			},
+			"it-IT": {
+				"name": "fitbit-color-themes"
+			},
+			"ja-JP": {
+				"name": "fitbit-color-themes"
+			},
+			"ko-KR": {
+				"name": "fitbit-color-themes"
+			},
+			"nl-NL": {
+				"name": "fitbit-color-themes"
+			},
+			"sv-SE": {
+				"name": "fitbit-color-themes"
+			},
+			"zh-CN": {
+				"name": "fitbit-color-themes"
+			},
+			"zh-TW": {
+				"name": "fitbit-color-themes"
+			}
+		},
+		"defaultLanguage": "en-US"
+	},
+	"dependencies": {
+		"bin": "^0.0.0",
+		"pnpm": "^6.15.1"
+	}
+}
